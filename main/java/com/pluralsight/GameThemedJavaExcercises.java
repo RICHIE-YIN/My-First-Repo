@@ -74,6 +74,7 @@ public class GameThemedJavaExcercises {
 //            System.out.println(++critCount);
 //            System.out.println(++critCount);
 
+
 //          Speed Boost A car’s speed is 150 km/h. It picks up a boost of +20, then another +30. 👉 Print the final speed, then reduce it by 50 when the boost runs out.
 //            https://github.com/BrightBoost/learningjava/blob/main/exercises/operatorExercise.md
     }
