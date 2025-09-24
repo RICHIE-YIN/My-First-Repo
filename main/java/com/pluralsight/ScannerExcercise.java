@@ -22,6 +22,6 @@ public class ScannerExcercise {
         int days = scanner.nextInt();
         scanner.nextLine();
 
-        System.out.printf("You're favorite animal is %s, first tool that comes to mind is %s and the day you were born is %d", animal, tool, days);
+        System.out.printf("You're favorite animal is %s, first tool that comes to mind is %s and the day you were born is %d", animal, tool, days); //%s is for string %d is for int
     }
 }
