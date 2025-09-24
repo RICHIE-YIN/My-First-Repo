@@ -32,15 +32,15 @@ public class RecapTuesday {
 //
 //        System.out.println(minutes + " minutes = " + hours + " hours and " + leftovers + " minutes");
         //6
-//        int numHours = 3;
-//        int numMinutes = 23;
-//        int minutesToAdd = 183;
-//        int newHours = minutesToAdd/60;
-//        int newMins = minutesToAdd%60;
-//
-//
-//        System.out.println("Start time: " + numHours + ":" + numMinutes);
-//        System.out.println("Minutes to add: " + minutesToAdd);
-//        System.out.println("Final time: " + (numHours + newHours) + ":" + (numMinutes + newMins));
+        int numHours = 3;
+        int numMinutes = 23;
+        int minutesToAdd = 183;
+        int newHours = (minutesToAdd + numMinutes)/60;
+        int newMins = (minutesToAdd + numMinutes)%60;
+
+
+        System.out.println("Start time: " + numHours + ":" + numMinutes);
+        System.out.println("Minutes to add: " + minutesToAdd);
+        System.out.println("Final time: " + (numHours + newHours) + ":" + (numMinutes + newMins));
     }
 }
