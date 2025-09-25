@@ -15,11 +15,12 @@ public class PayrollCalculator {
         if(hoursWorked > 40) {
             int newHours = (int) (hoursWorked - 40);
             float overtimePay = (float) (newHours * payRate * 1.5);
-            float regularPay = (float) (payRate * 40);
-             totalPay = (float) (regularPay + overtimePay);
+            float regularPay = (payRate * 40);
+             totalPay = (regularPay + overtimePay);
         } else {
              totalPay = (hoursWorked * payRate);
         }
         System.out.println(name + ", your gross pay is $" + totalPay);
+        System.out.printf("%s, your gross pay is $ %.2f%n", name, totalPay);
     }
 }
